@@ -38,7 +38,8 @@ Este repositório se refere somente ao gerenciamento das bicicletas. As funciona
 - Spring Boot  
 - Maven  
 - Postman (testes de API)  
-- SonarQube (análise de qualidade de código)  
+- SonarQube (análise de qualidade de código)
+- Render (Hospedagem de código) 
 
 ---
 

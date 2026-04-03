@@ -14,18 +14,23 @@ A arquitetura adotada foi baseada em **microsserviços**, onde cada integrante d
 O sistema foi dividido em três microsserviços principais:
 
 - 🔹 **Microsserviço de Bicicletas**  
-  Responsável pelo gerenciamento das bicicletas (cadastro, status, localização, manutenção)  
+  Responsável pelo gerenciamento das bicicletas  
   **Desenvolvido por:** Jonathan Gonçalves  
-
 - 🔹 **Microsserviço de Aluguel**  
   Responsável pelo controle de empréstimos e devoluções, incluindo regras de cobrança  
   **Desenvolvido por:** Isabelle Araujo  
-
 - 🔹 **Microsserviço de Serviços Externos**  
   Responsável pela comunicação com serviços externos (ex: pagamento, notificações)  
   **Desenvolvido por:** Barbara Miguez  
 
 ---
+
+## 🧩 Microsserviço de Bicicletas
+Este repositório se refere somente ao gerenciamento das bicicletas. As funcionalidades se listam como: 
+- CRUD das Bicicletas
+- CRUD dos Totens
+- CRUD das Trancas
+- Gerencimento de cada item anterior.
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -34,20 +39,6 @@ O sistema foi dividido em três microsserviços principais:
 - Maven  
 - Postman (testes de API)  
 - SonarQube (análise de qualidade de código)  
-
----
-
-## 📋 Funcionalidades Principais
-
-- Cadastro de usuários  
-- Aluguel de bicicletas  
-- Devolução em qualquer totem disponível  
-- Controle de tempo de uso (2h + taxa extra)  
-- Cobrança automática via cartão de crédito  
-- Registro de eventos (empréstimos, devoluções e cobranças)  
-- Gerenciamento de bicicletas (disponível, em uso, manutenção)  
-- Integração com serviços externos  
-- Notificações ao usuário  
 
 ---
 
@@ -80,7 +71,6 @@ Exemplos:
 - Cadastro de bicicleta
 - Consulta de bicicletas
 - Atualização de status
-- Integração com aluguel
 
 ##📊 Qualidade de Código
 
